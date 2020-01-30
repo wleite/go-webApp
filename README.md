@@ -6,8 +6,8 @@ Covered in this tutorial:
 
 -   [x] Creating a data structure with load and save methods
 -   [x] Using the net/http package to build web applications
--   [ ] Using the html/template package to process HTML templates
--   [ ] Using the regexp package to validate user input
+-   [x] Using the html/template package to process HTML templates
+-   [x] Using the regexp package to validate user input
 -   [ ] Using closures
 
 ## 1st step
@@ -51,4 +51,3 @@ go build wiki-web.go
 ```
 
 Then http://localhost:8080/view/TestPage
-(requires TestPage.txt)

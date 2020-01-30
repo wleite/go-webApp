@@ -13,5 +13,42 @@ Covered in this tutorial:
 ## 1st step
 
 ```go
-go build wiki.go
+go build wiki-page.go
 ```
+
+To run the Wiki App
+
+Wiki 1st (will generate the Sample Page file)
+
+```go
+./wiki-page
+```
+
+## 2nd step
+
+Build the webserver
+
+```go
+go build webserver.go
+```
+
+To start the webserver
+
+```go
+./webserver
+```
+
+Then http://localhost:8080/Beautiful
+
+Wiki Webserver
+
+```go
+go build wiki-web.go
+```
+
+```go
+./wiki-web
+```
+
+Then http://localhost:8080/view/TestPage
+(requires TestPage.txt)

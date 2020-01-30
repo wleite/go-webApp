@@ -46,8 +46,24 @@ Wiki Webserver
 go build wiki-web.go
 ```
 
+Run
+
 ```go
 ./wiki-web
 ```
 
 Then http://localhost:8080/view/TestPage
+
+3rd Step
+
+Build in a different output directory
+
+```go
+go build -o bin/wiki-web wiki-web.go
+```
+
+Run
+
+```go
+./bin/wiki-web
+```
